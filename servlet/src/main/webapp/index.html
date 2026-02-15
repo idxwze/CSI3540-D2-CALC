@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculatrice Web - Servlet</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="card">
+    <h1>Calculatrice Web (Servlet)</h1>
+    <form action="calculatrice" method="post" class="calc-form">
+      <label for="a">Nombre A</label>
+      <input id="a" name="a" type="text" required>
+
+      <label for="operation">Opération</label>
+      <select id="operation" name="operation" required>
+        <option value="add">Addition (+)</option>
+        <option value="sub">Soustraction (-)</option>
+        <option value="mul">Multiplication (×)</option>
+        <option value="div">Division (÷)</option>
+      </select>
+
+      <label for="b">Nombre B</label>
+      <input id="b" name="b" type="text" required>
+
+      <button type="submit">Calculer</button>
+    </form>
+  </main>
+</body>
+</html>

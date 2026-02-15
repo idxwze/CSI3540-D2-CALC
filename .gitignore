@@ -1,0 +1,13 @@
+.idea/
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Java / Maven
+servlet/target/
+target/
+
+# Logs
+*.log
